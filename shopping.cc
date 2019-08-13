@@ -45,7 +45,7 @@ void Shopping::SortByPrice() {
 // Sort shopping_list_ Elements by Index
 // Apply Selection Sort algorithm
 void Shopping::SortByIndex() {
-  std::vector<Goods>::iterator p = shopping_list_.begin();
+  //std::vector<Goods>::iterator p = shopping_list_.begin();
   std::vector<Goods>::iterator min = shopping_list_.end();
   for (std::vector<Goods>::iterator i = shopping_list_.begin();
       i != shopping_list_.end()-1; i++) {
