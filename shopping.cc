@@ -1,5 +1,6 @@
-#include <iostream>
 #include "./shopping.h"
+
+#include <iostream>
 
 // Push Goods object to shopping_list_ vector
 void Shopping::PushList(Goods object) {
