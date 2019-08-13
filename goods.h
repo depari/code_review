@@ -1,19 +1,19 @@
 #ifndef GOODS_H_
 #define GOODS_H_
 
-// Goods class for representing goods information with index and price
+// Goods class for representing goods information with serialNumber and price
 // Example:
 //    Goods test;
 //    test.SetGoodsInfo(1, 10000);
-//    std::cout << test.GetIndex() << " - " << test.GetPrice << endl;
+//    std::cout << test.GetSerialNumber() << " - " << test.GetPrice << endl;
 class Goods{
  public:
-  void SetGoodsInfo(int index, int price);
-  int GetIndex();
+  void SetGoodsInfo(int serial_number, int price);
+  int GetSerialNumber();
   int GetPrice();
 
  private:
-  int goods_index_ = 0;
+  int goods_serial_number_ = 0;
   int goods_price_ = 0;
 };
 

@@ -1,17 +1,14 @@
 #include "./goods.h"
 
-// Set member variable of goods with given index and price values
 void Goods::SetGoodsInfo(int index, int price) {
-  goods_index_ = index;
+  goods_serial_number_ = index;
   goods_price_ = price;
 }
 
-// Return index information
-int Goods::GetIndex() {
-  return goods_index_;
+int Goods::GetSerialNumber() {
+  return goods_serial_number_;
 }
 
-// Return price informaiton
 int Goods::GetPrice() {
   return goods_price_;
 }
